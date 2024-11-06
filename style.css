@@ -1,0 +1,241 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(234, 240, 245);
+    
+}
+
+.nav-link.active {
+    border: 1px solid black;
+    font-weight: 700;
+    border-radius: 50px;
+}
+
+.button-primary {
+    background-color: rgb(212, 218, 214);
+    border: none;
+    border-radius: 5px;
+}
+
+#register {
+    background-image: url(image/inpus.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.jumbotron-custom {
+    background: linear-gradient(to right, #8a8a91, #9d9dda);
+    color: rgb(45, 48, 45);
+    padding: 5rem 2rem;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .jumbotron-custom h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    animation: fadeInDown 1.5s ease;
+  }
+
+  .jumbotron-custom p {
+    font-size: 1.2rem;
+    animation: fadeInUp 1.5s ease;
+  }
+
+  .jumbotron-custom .btn-custom {
+    background-color: #4914c4;
+    color: rgb(252, 252, 253);
+    padding: 10px 25px;
+    border-radius: 25px;
+    transition: 0.4s;
+  }
+
+  .jumbotron-custom .btn-custom:hover {
+    background-color: #ff3d36;
+    color: #8d0505;
+    box-shadow: 0 4px 20px rgba(212, 16, 6, 0.6);
+  }
+
+  /* Animasi */
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Efek Bubble */
+  .bubble {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.3;
+    animation: bubble 20s linear infinite;
+  }
+
+  .bubble:nth-child(1) {
+    width: 80px;
+    height: 80px;
+    bottom: 10%;
+    left: 10%;
+    background-color: #ff9a8c;
+  }
+
+  .bubble:nth-child(2) {
+    width: 100px;
+    height: 100px;
+    top: 20%;
+    right: 10%;
+    background-color: #ff7b6d;
+  }
+
+  .bubble:nth-child(3) {
+    width: 120px;
+    height: 120px;
+    bottom: 15%;
+    right: 20%;
+    background-color: #a85e54;
+  }
+
+  .bubble:nth-child(4) {
+    width: 60px;
+    height: 60px;
+    top: 30%;
+    left: 25%;
+    background-color: #0f0e0e;
+  }
+
+  @keyframes bubble {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-1000px) scale(1.5);
+    }
+  }
+
+  
+  .footer-simple {
+    background-color: #343a40; /* Warna gelap sederhana */
+    font-size: 0.9rem;
+  }
+
+  .footer-simple .social-icons a {
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+
+  .footer-simple .social-icons a:hover {
+    color: #ff6f61;
+  }
+ 
+
+.about-section {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+.profile-img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.about-content h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+}
+.about-content p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.skills-section {
+  background-color: #f0f2f5;
+  padding: 60px 0;
+}
+.skills-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 30px;
+}
+.skill {
+  margin-bottom: 20px;
+}
+.skill-title {
+  font-weight: 600;
+  color: #555;
+}
+.progress-bar {
+  background-color: #007bff;
+  font-weight: bold;
+}
+
+register-section {
+  background-color: #f9fafb;
+  padding: 60px 0;
+}
+.register-form {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.register-form h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+.form-label {
+  font-weight: 600;
+  color: #555;
+}
+.btn-custom {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+
+.btn-custom:hover {
+  background-color: #0056b3;
+}
+
+.gotopbtn{
+  position: fixed;
+  background: rgb(233, 0, 0);
+  width: 50px;
+  height: 50px;
+  bottom: 130px;
+  right: 30px;
+  border-radius: 100%;
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+
+  color: white;
+  font-size: 22px;
+}
+
